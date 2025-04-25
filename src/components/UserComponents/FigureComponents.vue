@@ -21,7 +21,7 @@
          </div>
       </div>
       <!-- empty box -->
-      <div class="fixed hidden xl:block -end-2 top-8/12">
+      <div class="fixed hidden xl:block -end-2 top-7/12">
          <div class="border border-text w-30 h-50"></div>
       </div>
       <!-- dot box -->

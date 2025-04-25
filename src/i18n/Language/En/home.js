@@ -43,27 +43,45 @@ export default {
    SkillsFrameworksDescription: 'Vue React Next.js',
    SkillsOther: 'Other',
    SkillsOtherDescription: 'Html Css TailwindCss',
+   SkillsDatabases: 'Databases',
+   SkillsDatabasesDescription: 'SQLite PostgreSQL Mongo',
 
    // About me
    AboutMe: 'About-me',
    AboutMeDescriptionOne: 'Hello, i’m OmidReza!',
    AboutMeDescriptionTow:
       'I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.',
-   AboutMeDescriptionTree:
+   AboutMeDescriptionThree:
       'Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.',
    AboutMeBtn: 'Read more',
+   WhoAmI: 'Who am i?',
 
    // contacts
    Contacts: 'contacts',
    ContactsDescription:
       'I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me',
    ContactsMessage: 'Message me here',
-   ContactsTelegram: '@happyomid',
-   ContactsEmail: 'omid.shahbaz.reza@gmil.com',
-   ContactsDiscord: '@happyomid#123456',
+   ConContactsTelegram: '<span>@happyomid</span>',
+   ContactsEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
+   ContactsDiscord: '<span>happyomid#123456</span>',
 
    // Footer
    FooterDescrption: 'Web designer and front-end developer',
    FooterMedia: 'Media',
    FooterLisense: 'Free to Copy',
+
+   // fun facts
+   FunFacuts: 'my-fun-facts',
+   FunFacutsOne: 'I like winter more than summer',
+   FunFacutsTwo: 'I often bike with my friends',
+   FunFacutsThree: 'My favorite movie is The (Troy)',
+   FunFacutsFour: 'I love Judo and taekwondo',
+   FunFacutsFive: 'Iam pro at Titanfall',
+
+   //All Media
+   AllMdia:'All-media',
+   AllMdiaTelegram: '<span>@happyomid</span>',
+   AllMdiaDiscord: '<span>@happyomid#12345</span>',
+   AllMdiaEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
+   AllMdiaLinkedin:'Omidreza Shahbazi',
 }

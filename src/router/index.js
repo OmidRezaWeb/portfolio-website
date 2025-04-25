@@ -5,6 +5,7 @@ import UserLayout from '@/layout/UserLayout.vue'
 //Page
 import HomeView from '../views/HomeView.vue'
 import BossDashboard from '@/views/admin/BossDashboard.vue'
+import ContactView from '@/views/ContactView.vue'
 
 const router = createRouter({
    history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,13 +17,18 @@ const router = createRouter({
          children: [
             {
                path: '',
-               // name:'home',
+               name:'home',
                component: HomeView,
             },
             {
                path: 'about',
                name: 'about',
                component: () => import('../views/AboutView.vue'),
+            },
+            {
+               path:'contact',
+               name:'contact',
+               component:ContactView,
             },
          ],
       },

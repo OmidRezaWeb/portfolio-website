@@ -133,17 +133,17 @@ const sliderBreakpoints = {
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
                   <img src="/src/assets/img/gallery/Rectangle 22.jpg" alt="" />
-                  <h3 class="border-b pb-2 ps-2">
+                  <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
                   <div class="p-3">
-                     <h3 class="font-medium text-xl mb-4">
+                     <h3 class="font-medium text-xl mb-4 text-center">
                         {{ t('home.prpjectMainTitel1') }}
                      </h3>
-                     <p>
+                     <p class="text-center">
                         {{ t('home.prpjectMainDescription1') }}
                      </p>
-                     <div class="flex items-center justify-start gap-3 mt-5">
+                     <div class="flex items-center justify-between gap-3 mt-5">
                         <button class="border p-2 border-primery">
                            {{ t('home.prpjectMain1Button1') }} =>
                         </button>
@@ -158,17 +158,17 @@ const sliderBreakpoints = {
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
                   <img src="/src/assets/img/gallery/Rectangle 22.jpg" alt="" />
-                  <h3 class="border-b pb-2 ps-2">
+                  <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
                   <div class="p-3">
-                     <h3 class="font-medium text-xl mb-4">
+                     <h3 class="font-medium text-xl mb-4 text-center">
                         {{ t('home.prpjectMainTitel1') }}
                      </h3>
-                     <p>
+                     <p class="text-center">
                         {{ t('home.prpjectMainDescription1') }}
                      </p>
-                     <div class="flex items-center justify-start gap-3 mt-5">
+                     <div class="flex items-center justify-between gap-3 mt-5">
                         <button class="border p-2 border-primery">
                            {{ t('home.prpjectMain1Button1') }} =>
                         </button>
@@ -183,17 +183,17 @@ const sliderBreakpoints = {
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
                   <img src="/src/assets/img/gallery/Rectangle 22.jpg" alt="" />
-                  <h3 class="border-b pb-2 ps-2">
+                  <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
                   <div class="p-3">
-                     <h3 class="font-medium text-xl mb-4">
+                     <h3 class="font-medium text-xl mb-4 text-center">
                         {{ t('home.prpjectMainTitel1') }}
                      </h3>
-                     <p>
+                     <p class="text-center">
                         {{ t('home.prpjectMainDescription1') }}
                      </p>
-                     <div class="flex items-center justify-start gap-3 mt-5">
+                     <div class="flex items-center justify-between gap-3 mt-5">
                         <button class="border p-2 border-primery">
                            {{ t('home.prpjectMain1Button1') }} =>
                         </button>
@@ -264,25 +264,25 @@ const sliderBreakpoints = {
                />
             </div>
             <div class="flex flex-wrap gap-5">
-               <div class="border border-text w-5/10 h-30">
+               <div class="border border-text w-5/10 h-36 md:h-30">
                   <h4 class="border-b text-center py-2">
                      {{ t('home.SkillsLanguage') }}
                   </h4>
                   <p class="p-2">{{ t('home.SkillsLanguageDescription') }}</p>
                </div>
-               <div class="border border-text w-4/10 h-30">
+               <div class="border border-text w-4/10 h-40 md:h-30">
                   <h4 class="border-b text-center py-2">
                      {{ t('home.SkillsTools') }}
                   </h4>
                   <p class="p-2">{{ t('home.SkillsToolsDescription') }}</p>
                </div>
-               <div class="border border-text w-3/10 lg:w-2/5 h-30">
+               <div class="border border-text w-3/10 lg:w-2/5 h-32 md:h-30">
                   <h4 class="border-b text-center py-2">
                      {{ t('home.SkillsFrameworks') }}
                   </h4>
                   <p class="p-2">{{ t('home.SkillsFrameworksDescription') }}</p>
                </div>
-               <div class="border border-text w-56 h-30">
+               <div class="border border-text w-56 h-20 md:h-30">
                   <h4 class="border-b text-center py-2">
                      {{ t('home.SkillsOther') }}
                   </h4>
@@ -292,7 +292,7 @@ const sliderBreakpoints = {
          </div>
       </section>
       <!-- About me -->
-      <section>
+      <section class="my-20">
          <div class="flex items-center gap-2 my-5">
             <h3 class="text-3xl">
                <span class="text-primery">#</span>{{ t('home.AboutMe') }}
@@ -300,7 +300,7 @@ const sliderBreakpoints = {
             <div class="w-30 lg:w-80 h-0.5 bg-primery"></div>
          </div>
 
-         <div class="md:flex gap-10">
+         <div class="md:flex gap-10 justify-between">
             <div class="md:w-1/2">
                <p class="my-3">{{ t('home.AboutMeDescriptionOne') }}</p>
 
@@ -308,17 +308,20 @@ const sliderBreakpoints = {
                   {{ t('home.AboutMeDescriptionTow') }}
                </p>
 
-               <p class="my-3">
-                  {{ t('home.AboutMeDescriptionTree') }}
+               <p class="my-3 mb-10">
+                  {{ t('home.AboutMeDescriptionThree') }}
                </p>
 
-               <button class="my-3 border border-text p-2 cursor-pointer">
+               <router-link
+                  :to="{name:'about'}"
+                  class="border border-text p-2 cursor-pointer"
+               >
                   {{ t('home.AboutMeBtn') }}
-               </button>
+               </router-link>
             </div>
             <div class="relative">
                <img
-                  src="/src/assets/img/icon/hero.png"
+                  src="/src/assets/img/gallery/hero-2.png"
                   alt=""
                   class="relative z-20"
                />
@@ -377,7 +380,7 @@ const sliderBreakpoints = {
             </h3>
             <div class="w-50 lg:w-96 h-0.5 bg-primery"></div>
          </div>
-         <div class="flex flex-col md:flex-row gap-10 mt-20">
+         <div class="flex flex-col md:flex-row gap-10 mt-5">
             <div class="">
                <p>
                   {{ t('home.ContactsDescription') }}
@@ -390,17 +393,17 @@ const sliderBreakpoints = {
                   </h4>
                   <span class="flex gap-2 items-center my-3">
                      <img src="/src/assets/img/icon/Telegram.png" alt="" />
-                     <p>{{ t('home.ContactsTelegram') }}</p>
+                     <p v-html="t('home.ContactsTelegram')"></p>
                   </span>
 
-                  <span class="flex gap-2 items-center my-3">
+                  <span class="flex gap-2 items-center my-3 flex-wrap">
                      <img src="/src/assets/img/icon/Email.png" alt="" />
-                     <p>{{ t('home.ContactsEmail') }}</p>
+                     <p v-html="t('home.ContactsEmail') "></p>
                   </span>
 
                   <span class="flex gap-2 items-center my-3">
                      <img src="/src/assets/img/icon/Discord.png" alt="" />
-                     <p>{{ t('home.ContactsDiscord') }}</p>
+                     <p v-html="t('home.ContactsDiscord') "></p>
                   </span>
                </div>
             </div>

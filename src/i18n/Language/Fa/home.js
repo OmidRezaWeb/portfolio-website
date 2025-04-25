@@ -41,27 +41,45 @@ export default {
    SkillsFrameworksDescription: 'Vue React Next.js',
    SkillsOther: 'دیگر',
    SkillsOtherDescription: 'Html Css TailwindCss',
+   SkillsDatabases: 'پایگاه داده',
+   SkillsDatabasesDescription: 'SQLite PostgreSQL Mongo',
 
    // About me
    AboutMe: 'درباره من',
    AboutMeDescriptionOne: 'سلام! من امیدرضا هستم.',
    AboutMeDescriptionTow:
       'من یک توسعه‌دهنده‌ی فرانت‌اند خودآموخته‌ام که در کرمانشاه، ایران ساکن هستم. من می‌تونم وب‌سایت‌هایی واکنش‌گرا رو از صفر طراحی و توسعه بدم و اون‌ها رو به تجربه‌های کاربری مدرن و قابل‌اعتماد تبدیل کنم.',
-   AboutMeDescriptionTree:
+   AboutMeDescriptionThree:
       'تبدیل خلاقیت و دانشم به وب‌سایت، بیش از یک ساله که به یکی از علایق اصلی من تبدیل شده. توی این مدت به مشتری‌های مختلفی کمک کردم که حضور آنلاینشون رو بسازن. همیشه در تلاش‌ام تا با جدیدترین تکنولوژی‌ها و فریم‌ورک‌ها به‌روز بمونم.',
    AboutMeBtn: 'بیشتر بخوانید',
+   WhoAmI: 'من کی هستم',
 
    // تماس‌ها
    Contacts: 'تماس',
    ContactsDescription:
       'به فرصت‌های فریلنس علاقه‌مندم. اما اگر سوال یا درخواست دیگه‌ای هم دارید، بدون تردید با من تماس بگیرید.',
    ContactsMessage: 'اینجا پیام بده',
-   ContactsTelegram: '@happyomid',
-   ContactsEmail: 'omid.shahbaz.reza@gmil.com',
-   ContactsDiscord: '@happyomid#123456',
+   ContactsTelegram: '<span>@happyomid</span>',
+   ContactsEmail: '<span>omid.shahbaz.reza@gmil.com</span>',
+   ContactsDiscord: '<span>appyomid#123456</span>',
 
    // فوتر
    FooterDescrption: 'طراح وب و توسعه‌دهنده‌ی فرانت‌اند',
    FooterMedia: 'رسانه‌ها',
    FooterLisense: 'آزاد برای کپی',
+
+   // fun facts
+   FunFacuts: 'دانستنی های جالب درباره من',
+   FunFacutsOne: 'من زمستون رو بیشتر از تابستون دوست دارم',
+   FunFacutsTwo: 'اغلب با دوست‌هام دوچرخه‌سواری می‌کنم',
+   FunFacutsThree: 'فیلم مورد علاقه من (Troy)',
+   FunFacutsFour: 'به جودو و تکواندو علاقه‌مندم',
+   FunFacutsFive: 'تو بازی Titanfall حرفه‌ای‌ام!',
+
+    //All Media
+   AllMdia:'تمام رسانه های من',
+   AllMdiaTelegram: '<span>@happyomid</span>',
+   AllMdiaDiscord: '<span>@happyomid#12345</span>',
+   AllMdiaEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
+    AllMdiaLinkedin:'Omidreza Shahbazi',
 }

@@ -16,12 +16,15 @@ const language = computed({
 </script>
 <template>
    <header class="flex items-center justify-between p-3 max-w-5xl m-auto">
-      <a href="#" class="logo flex items-center justify-center">
+      <router-link
+         :to="{ name: 'home' }"
+         class="logo flex items-center justify-center"
+      >
          <img src="/src/assets/img/icon/logo.svg" alt="" />
          <span class="font-bold text-2xl text-text px-2">{{
             t('home.menuName')
          }}</span>
-      </a>
+      </router-link>
       <!-- menu -->
       <div class="flex items-center">
          <!-- check box for open close menu -->
@@ -35,35 +38,36 @@ const language = computed({
          <nav
             class="peer-checked:block hidden md:flex md:static md:bg-transparent bg-white absolute top-17 right-0 w-full md:w-auto shadow-md md:shadow-none rounded-md p-4 md:p-0 z-50"
          >
-            <ul class="space-y-2 md:flex md:gap-3 md:items-center md:space-y-0">
+            <ul class="space-y-2 md:flex md:gap-5 md:items-center md:space-y-0">
                <li>
-                  <a
-                     href="#"
+                  <router-link
+                     :to="{ name: 'home' }"
                      class="block text-gray-700 md:text-text hover:text-primery"
-                     >{{ t('home.menuHome') }}</a
+                     >{{ t('home.menuHome') }}</router-link
                   >
                </li>
                <li>
-                  <a
-                     href="#"
+                  <router-link
+                     :to="{ name: 'home' }"
                      class="block text-gray-700 md:text-text hover:text-primery"
-                     >{{ t('home.menuWorks') }}</a
+                     >{{ t('home.menuWorks') }}</router-link
                   >
                </li>
                <li>
-                  <a
-                     href="#"
+                  <router-link
+                     :to="{ name: 'about' }"
                      class="block text-gray-700 md:text-text hover:text-primery"
-                     >{{ t('home.menuAbout') }}</a
+                     >{{ t('home.menuAbout') }}</router-link
                   >
                </li>
                <li>
-                  <a
-                     href="#"
+                  <router-link
+                     :to="{ name: 'contact' }"
                      class="block text-gray-700 md:text-text hover:text-primery"
-                     >{{ t('home.menuContacts') }}</a
+                     >{{ t('home.menuContacts') }}</router-link
                   >
                </li>
+               <!-- language select -->
                <li>
                   <select
                      name="lang"
