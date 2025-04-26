@@ -48,7 +48,7 @@ const language = computed({
                </li>
                <li>
                   <router-link
-                     :to="{ name: 'home' }"
+                     :to="{ name: 'works' }"
                      class="block text-gray-700 md:text-text hover:text-primery"
                      >{{ t('home.menuWorks') }}</router-link
                   >

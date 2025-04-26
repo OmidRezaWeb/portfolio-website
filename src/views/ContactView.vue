@@ -26,17 +26,17 @@ const { t } = useI18n()
                   </h4>
                   <span class="flex gap-2 items-center my-3">
                      <img src="@/assets/img/icon/Telegram.png" alt="" />
-                     <p v-html="t('home.ContactsTelegram')"></p>
+                     <p>@{{ t('home.AllMdiaTelegram') }}</p>
                   </span>
 
                   <span class="flex gap-2 items-center my-3 flex-wrap">
                      <img src="@/assets/img/icon/Email.png" alt="" />
-                     <p v-html="t('home.ContactsEmail')"></p>
+                     <p >{{ t('home.AllMdiaEmail') }}@gmail.com</p>
                   </span>
 
                   <span class="flex gap-2 items-center my-3">
                      <img src="@/assets/img/icon/Discord.png" alt="" />
-                     <p v-html="t('home.ContactsDiscord')"></p>
+                     <p>{{ t('home.AllMdiaDiscord')  }}#12345</p>
                   </span>
                </div>
             </div>
@@ -54,12 +54,12 @@ const { t } = useI18n()
          <div class="">
             <span class="flex items-center gap-1">
                <img src="@/assets/img/icon/Telegram.png" alt="" />
-               <p v-html="t('home.AllMdiaTelegram')"></p>
+               <p >@{{ t('home.AllMdiaTelegram') }}</p>
             </span>
 
             <span class="flex items-center gap-1">
                <img src="@/assets/img/icon/Discord.png" alt="" />
-               <p v-html="t('home.AllMdiaDiscord')"></p>
+               <p>{{ t('home.AllMdiaDiscord')  }}#12345</p>
             </span>
 
             <span class="flex items-center gap-1">
@@ -69,7 +69,7 @@ const { t } = useI18n()
 
             <span class="flex items-center gap-1 flex-wrap">
                <img src="@/assets/img/icon/Email.png" alt="" />
-               <p v-html="t('home.AllMdiaEmail')"></p>
+               <p>{{ t('home.AllMdiaEmail') }}@gmail.com</p>
             </span>
          </div>
       </section>

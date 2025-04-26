@@ -61,7 +61,7 @@ export default {
    ContactsDescription:
       'I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me',
    ContactsMessage: 'Message me here',
-   ConContactsTelegram: '<span>@happyomid</span>',
+   ContactsTelegram: '<span>@happyomid</span>',
    ContactsEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
    ContactsDiscord: '<span>happyomid#123456</span>',
 
@@ -80,8 +80,8 @@ export default {
 
    //All Media
    AllMdia:'All-media',
-   AllMdiaTelegram: '<span>@happyomid</span>',
-   AllMdiaDiscord: '<span>@happyomid#12345</span>',
-   AllMdiaEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
+   AllMdiaTelegram: 'happyomid',
+   AllMdiaDiscord: 'happyomid',
+   AllMdiaEmail: 'omidreza.shahbazi.web',
    AllMdiaLinkedin:'Omidreza Shahbazi',
 }

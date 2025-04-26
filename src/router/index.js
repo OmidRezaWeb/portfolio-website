@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 // Layout
-import AdminLayout from '@/layout/AdminLayout.vue'
-import UserLayout from '@/layout/UserLayout.vue'
+import AdminLayout from '../layout/AdminLayout.vue'
+import UserLayout from '../layout/UserLayout.vue'
 //Page
-import HomeView from '../views/HomeView.vue'
-import BossDashboard from '@/views/admin/BossDashboard.vue'
-import ContactView from '@/views/ContactView.vue'
+import BossDashboard from '../views/admin/BossDashboard.vue'
+import ContactView from '../views/ContactView.vue'
+import NotFound from '../views/NotFound.vue'
+import WorksView from '../views/WorksView.vue'
 
 const router = createRouter({
    history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,7 +19,7 @@ const router = createRouter({
             {
                path: '',
                name:'home',
-               component: HomeView,
+               component: ()=>import('../views/HomeView.vue'),
             },
             {
                path: 'about',
@@ -30,6 +31,11 @@ const router = createRouter({
                name:'contact',
                component:ContactView,
             },
+            {
+               path:'works',
+               name:'works',
+               component:WorksView,
+            },
          ],
       },
       // adminLayout
@@ -38,6 +44,7 @@ const router = createRouter({
          component: AdminLayout,
          children: [{ path: '', name: 'boss', component: BossDashboard }],
       },
+      { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
    ],
 })
 
