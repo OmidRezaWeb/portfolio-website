@@ -10,7 +10,7 @@ const { t } = useI18n()
          <div class="flex flex-col gap-3">
             <div class="">
                <span class="flex gap-2 items-center">
-                  <img src="/src/assets/img/icon/logo.svg" alt="logo" />
+                  <img src="@//assets/img/icon/logo.png" alt="logo" />
                   <p class="text-xl font-bold text-amber-50">
                      {{ t('home.menuName') }}
                   </p>
@@ -23,9 +23,9 @@ const { t } = useI18n()
          <div class="flex flex-col gap-3">
             <h4 class="font-medium text-xl">{{ t('home.FooterMedia') }}</h4>
             <span class="flex gap-2">
-               <img src="/src/assets/img/icon/Linkedin.png" alt="Linkedin" />
-               <img src="/src/assets/img/icon/Figma.png" alt="Figma" />
-               <img src="/src/assets/img/icon/Github.png" alt="Github" />
+               <img src="@//assets/img/icon/Linkedin.png" alt="Linkedin" />
+               <img src="@//assets/img/icon/Figma.png" alt="Figma" />
+               <img src="@//assets/img/icon/Github.png" alt="Github" />
             </span>
          </div>
       </div>

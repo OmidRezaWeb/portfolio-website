@@ -20,7 +20,7 @@ const language = computed({
          :to="{ name: 'home' }"
          class="logo flex items-center justify-center"
       >
-         <img src="/src/assets/img/icon/logo.svg" alt="" />
+         <img src="@//assets/img/icon/logo.png" alt="" />
          <span class="font-bold text-2xl text-text px-2">{{
             t('home.menuName')
          }}</span>
