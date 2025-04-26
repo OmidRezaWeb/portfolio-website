@@ -2,6 +2,7 @@
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
+
 </script>
 <template>
    <main class="p-3 max-w-5xl m-auto">

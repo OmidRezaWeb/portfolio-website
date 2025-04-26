@@ -23,7 +23,9 @@ export default {
    // project
    project: 'پروژه ها',
    projectView: 'دیدن همه',
-
+   projectList:'لیست پروژه های من',
+   projectComplete:'تکمیل شده ها',
+   projectSmallApp:'پروژه های کوچک',
    prpjectMainTitel1: 'لیست کار ها',
    prpjectMainTechnology1: 'Html Css JavaScript',
    prpjectMainDescription1:
@@ -59,9 +61,7 @@ export default {
    ContactsDescription:
       'به فرصت‌های فریلنس علاقه‌مندم. اما اگر سوال یا درخواست دیگه‌ای هم دارید، بدون تردید با من تماس بگیرید.',
    ContactsMessage: 'اینجا پیام بده',
-   ContactsTelegram: '<span>@happyomid</span>',
-   ContactsEmail: '<span>omid.shahbaz.reza@gmil.com</span>',
-   ContactsDiscord: '<span>appyomid#123456</span>',
+
 
    // فوتر
    FooterDescrption: 'طراح وب و توسعه‌دهنده‌ی فرانت‌اند',
@@ -78,8 +78,8 @@ export default {
 
     //All Media
    AllMdia:'تمام رسانه های من',
-   AllMdiaTelegram: '<span>@happyomid</span>',
-   AllMdiaDiscord: '<span>@happyomid#12345</span>',
-   AllMdiaEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
+   AllMdiaTelegram: 'happyomid',
+   AllMdiaDiscord: 'happyomid#12345',
+   AllMdiaEmail: 'omidreza.shahbazi.web',
     AllMdiaLinkedin:'Omidreza Shahbazi',
 }

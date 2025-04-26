@@ -24,7 +24,9 @@ export default {
    // project
    project: 'project',
    projectView: 'View all',
-
+   projectList:'List of my porjects',
+   projectComplete:'Complete-app',
+   projectSmallApp:'Small-app',
    prpjectMainTitel1: 'Todo App',
    prpjectMainTechnology1: 'Html Css JavaScript',
    prpjectMainDescription1:
@@ -61,9 +63,6 @@ export default {
    ContactsDescription:
       'I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me',
    ContactsMessage: 'Message me here',
-   ContactsTelegram: '<span>@happyomid</span>',
-   ContactsEmail: '<span>omidreza.shahbazi.web@gmail.com</span>',
-   ContactsDiscord: '<span>happyomid#123456</span>',
 
    // Footer
    FooterDescrption: 'Web designer and front-end developer',
