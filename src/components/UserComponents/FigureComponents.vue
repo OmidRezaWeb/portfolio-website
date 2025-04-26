@@ -8,15 +8,15 @@
          <div class="w-0.5 h-28 bg-amber-50"></div>
          <div class="icon flex flex-col items-center justify-center gap-2">
             <a href="#">
-               <img src="@//assets/img/icon/Github.png" alt="" />
+               <img src="@/assets/img/icon/Github.png" alt="" />
             </a>
 
             <a href="#">
-               <img src="@//assets/img/icon/Linkedin.png" alt="" />
+               <img src="@/assets/img/icon/Linkedin.png" alt="" />
             </a>
 
             <a href="#">
-               <img src="@//assets/img/icon/Telegram.png" alt="" />
+               <img src="@/assets/img/icon/Telegram.png" alt="" />
             </a>
          </div>
       </div>

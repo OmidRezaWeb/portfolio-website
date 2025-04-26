@@ -31,7 +31,7 @@ const { t } = useI18n()
          </div>
          <div class="relative">
             <img
-               src="@//assets/img/gallery/hero-2.png"
+               src="@/assets/img/gallery/hero-2.png"
                alt=""
                class="relative z-20"
             />
@@ -75,7 +75,7 @@ const { t } = useI18n()
                </div>
             </div>
             <img
-               src="@//assets/img/icon/logo.png"
+               src="@/assets/img/icon/logo.png"
                alt=""
                class="w-40 absolute top-0"
             />
@@ -189,7 +189,7 @@ const { t } = useI18n()
                   </div>
                </div>
                <img
-                  src="@//assets/img/icon/Logoline.png"
+                  src="@/assets/img/icon/Logoline.png"
                   alt="logo"
                   class="absolute end-20 top-40"
                />

@@ -61,12 +61,12 @@ const sliderBreakpoints = {
          <div class="mt-10 lg:w-1/2">
             <div class="relative">
                <div class="absolute z-0">
-                  <img src="@//assets/img/icon/logoLine.png" alt="logo" />
+                  <img src="@/assets/img/icon/Logoline.png" alt="logo" />
                </div>
                <div class="relative z-20">
                   <img
                      class="z-20"
-                     src="@//assets/img/icon/hero.png"
+                     src="@/assets/img/icon/hero.png"
                      alt="hero"
                   />
                </div>
@@ -89,14 +89,14 @@ const sliderBreakpoints = {
             <p class="my-3">{{ t('home.quotation') }}</p>
             <div class="bg-bg p-3 absolute start-10 -top-7">
                <img
-                  src="@//assets/img/icon/quotation.png"
+                  src="@/assets/img/icon/quotation.png"
                   alt="quotation"
                   class="w-7 h-6"
                />
             </div>
             <div class="bg-bg p-3 absolute end-10 -bottom-7">
                <img
-                  src="@//assets/img/icon/quotation.png"
+                  src="@/assets/img/icon/quotation.png"
                   alt="quotation"
                   class="w-7 h-6"
                />
@@ -132,7 +132,7 @@ const sliderBreakpoints = {
          >
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
-                  <img src="@//assets/img/gallery/Rectangle 22.jpg" alt="" />
+                  <img src="@/assets/img/gallery/Rectangle 22.jpg" alt="" />
                   <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
@@ -157,7 +157,7 @@ const sliderBreakpoints = {
 
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
-                  <img src="@//assets/img/gallery/Rectangle 22.jpg" alt="" />
+                  <img src="@/assets/img/gallery/Rectangle 22.jpg" alt="" />
                   <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
@@ -182,7 +182,7 @@ const sliderBreakpoints = {
 
             <swiper-slide class="cart mt-5">
                <div class="border border-text flex flex-col gap-3">
-                  <img src="@//assets/img/gallery/Rectangle 22.jpg" alt="" />
+                  <img src="@/assets/img/gallery/Rectangle 22.jpg" alt="" />
                   <h3 class="border-b pb-2 ps-2 text-center">
                      {{ t('home.prpjectMainTechnology1') }}
                   </h3>
@@ -258,7 +258,7 @@ const sliderBreakpoints = {
                   </div>
                </div>
                <img
-                  src="@//assets/img/icon/Logoline.png"
+                  src="@/assets/img/icon/Logoline.png"
                   alt="logo"
                   class="absolute end-0 top-40"
                />
@@ -321,7 +321,7 @@ const sliderBreakpoints = {
             </div>
             <div class="relative">
                <img
-                  src="@//assets/img/gallery/hero-2.png"
+                  src="@/assets/img/gallery/hero-2.png"
                   alt=""
                   class="relative z-20"
                />
@@ -365,7 +365,7 @@ const sliderBreakpoints = {
                   </div>
                </div>
                <img
-                  src="@//assets/img/icon/logo.png"
+                  src="@/assets/img/icon/logo.png"
                   alt=""
                   class="w-40 absolute top-0"
                />
@@ -392,12 +392,12 @@ const sliderBreakpoints = {
                      {{ t('home.ContactsMessage') }}
                   </h4>
                   <span class="flex gap-2 items-center my-3">
-                     <img src="@//assets/img/icon/Telegram.png" alt="" />
+                     <img src="@/assets/img/icon/Telegram.png" alt="" />
                      <p v-html="t('home.ContactsTelegram')"></p>
                   </span>
 
                   <span class="flex gap-2 items-center my-3 flex-wrap">
-                     <img src="@//assets/img/icon/Email.png" alt="" />
+                     <img src="@/assets/img/icon/Email.png" alt="" />
                      <p v-html="t('home.ContactsEmail') "></p>
                   </span>
 
