@@ -23,9 +23,19 @@ const { t } = useI18n()
          <div class="flex flex-col gap-3">
             <h4 class="font-medium text-xl">{{ t('home.FooterMedia') }}</h4>
             <span class="flex gap-2">
-               <img src="@/assets/img/icon/Linkedin.png" alt="Linkedin" />
-               <img src="@/assets/img/icon/Figma.png" alt="Figma" />
-               <img src="@/assets/img/icon/Github.png" alt="Github" />
+               <a
+                  href="https://www.linkedin.com/in/omidreza-shahbazi-133532345/"
+               >
+                  <img src="@/assets/img/icon/Linkedin.png" alt="Linkedin" />
+               </a>
+
+               <a href="https://www.figma.com/@omidreza3">
+                  <img src="@/assets/img/icon/Figma.png" alt="Figma" />
+               </a>
+
+               <a href="https://github.com/OmidRezaWeb">
+                  <img src="@/assets/img/icon/Github.png" alt="Github" />
+               </a>
             </span>
          </div>
       </div>

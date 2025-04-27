@@ -7,15 +7,15 @@
       >
          <div class="w-0.5 h-28 bg-amber-50"></div>
          <div class="icon flex flex-col items-center justify-center gap-2">
-            <a href="#">
+            <a href="https://github.com/OmidRezaWeb">
                <img src="@/assets/img/icon/Github.png" alt="" />
             </a>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/in/omidreza-shahbazi-133532345/">
                <img src="@/assets/img/icon/Linkedin.png" alt="" />
             </a>
 
-            <a href="#">
+            <a href="https://t.me/happyomidsh">
                <img src="@/assets/img/icon/Telegram.png" alt="" />
             </a>
          </div>

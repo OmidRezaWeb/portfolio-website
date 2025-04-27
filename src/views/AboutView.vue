@@ -21,13 +21,9 @@ const { t } = useI18n()
                {{ t('home.AboutMeDescriptionTow') }}
             </p>
 
-            <p class="my-3">
+            <p class="my-3 mb-10">
                {{ t('home.AboutMeDescriptionThree') }}
             </p>
-
-            <button class="my-3 border border-text p-2 cursor-pointer">
-               {{ t('home.AboutMeBtn') }}
-            </button>
          </div>
          <div class="relative">
             <img

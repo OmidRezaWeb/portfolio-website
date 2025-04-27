@@ -5,7 +5,7 @@ const { t } = useI18n()
 
 </script>
 <template>
-   <main class="p-3 max-w-5xl m-auto">
+   <main class="p-3 max-w-5xl m-auto h-svh">
       <!-- contacts -->
       <section>
          <div class="flex items-center gap-2 my-5">
@@ -21,7 +21,7 @@ const { t } = useI18n()
                </p>
             </div>
             <div class="">
-               <div class="p-3 border border-text md:w-80">
+               <div class="p-3 border border-text md:w-100">
                   <h4 class="font-medium text-xl">
                      {{ t('home.ContactsMessage') }}
                   </h4>
@@ -37,7 +37,7 @@ const { t } = useI18n()
 
                   <span class="flex gap-2 items-center my-3">
                      <img src="@/assets/img/icon/Discord.png" alt="" />
-                     <p>{{ t('home.AllMdiaDiscord')  }}#12345</p>
+                     <p>{{ t('home.AllMdiaDiscord')  }}#6325</p>
                   </span>
                </div>
             </div>
@@ -60,7 +60,7 @@ const { t } = useI18n()
 
             <span class="flex items-center gap-1">
                <img src="@/assets/img/icon/Discord.png" alt="" />
-               <p>{{ t('home.AllMdiaDiscord')  }}#12345</p>
+               <p>{{ t('home.AllMdiaDiscord')  }}#6325</p>
             </span>
 
             <span class="flex items-center gap-1">

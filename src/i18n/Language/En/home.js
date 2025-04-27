@@ -7,7 +7,7 @@ export default {
    menuName: 'OmidReza',
 
    //hero
-   heroTitle: "I'm OmidReza a {designer} and {developer}",
+   heroTitle: "Hi, I'm OmidReza a {designer} and {developer}",
    heroSubTitle:
       'I build responsive, user-friendly websites where clean code meets creative design.',
    heroButton: 'Contact me!!',
@@ -50,11 +50,11 @@ export default {
 
    // About me
    AboutMe: 'About-me',
-   AboutMeDescriptionOne: 'Hello, i’m OmidReza!',
+   AboutMeDescriptionOne: 'Hello, i’m OmidReza Shahbazi!',
    AboutMeDescriptionTow:
-      'I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.',
+      'I’m a front-end developer based in Kermanshah, IRAN. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.',
    AboutMeDescriptionThree:
-      'Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.',
+      "For the past four years, I've been passionate about transforming my creativity and knowledge into websites. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.",
    AboutMeBtn: 'Read more',
    WhoAmI: 'Who am i?',
 

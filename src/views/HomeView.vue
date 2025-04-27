@@ -54,9 +54,12 @@ const sliderBreakpoints = {
             <p class="text-base text-amber-50/50">
                {{ t('home.heroSubTitle') }}
             </p>
-            <a href="#" class="border border-primery inline-block p-3 mt-5">
+            <router-link
+               :to="{ name: 'contact' }"
+               class="border border-primery inline-block p-3 mt-5"
+            >
                {{ t('home.heroButton') }}
-            </a>
+            </router-link>
          </div>
          <div class="mt-10 lg:w-1/2">
             <div class="relative">
@@ -313,7 +316,7 @@ const sliderBreakpoints = {
                </p>
 
                <router-link
-                  :to="{name:'about'}"
+                  :to="{ name: 'about' }"
                   class="border border-text p-2 cursor-pointer"
                >
                   {{ t('home.AboutMeBtn') }}
@@ -387,13 +390,13 @@ const sliderBreakpoints = {
                </p>
             </div>
             <div class="">
-               <div class="p-3 border border-text md:w-80">
+               <div class="p-3 border border-text md:w-100">
                   <h4 class="font-medium text-xl">
                      {{ t('home.ContactsMessage') }}
                   </h4>
                   <span class="flex gap-2 items-center my-3">
                      <img src="@/assets/img/icon/Telegram.png" alt="" />
-                     <p >@{{ t('home.AllMdiaTelegram') }}</p>
+                     <p>@{{ t('home.AllMdiaTelegram') }}</p>
                   </span>
 
                   <span class="flex gap-2 items-center my-3 flex-wrap">
@@ -403,7 +406,7 @@ const sliderBreakpoints = {
 
                   <span class="flex gap-2 items-center my-3">
                      <img src="@/assets/img/icon/Discord.png" alt="" />
-                     <p>{{ t('home.AllMdiaDiscord')  }}#12345</p>
+                     <p>{{ t('home.AllMdiaDiscord') }}#6325</p>
                   </span>
                </div>
             </div>
