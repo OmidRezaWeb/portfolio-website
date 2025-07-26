@@ -1,2 +1,15 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+@theme static{
+  --color-main:#1153C0;
+  --color-dark-main:#EF4C4F;
+  --color-dark-bg:#2B3548;
+  --color-dark-bg-secndry:#42506B;
+  --color-dark-border:#4B4B4B;
+  --color-dark-text:#EAEAEC;
+}
