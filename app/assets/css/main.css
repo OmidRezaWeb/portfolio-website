@@ -3,13 +3,25 @@
 
 body {
   font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
 }
 
 @theme static{
+  /* Colors */
   --color-main:#1153C0;
   --color-dark-main:#EF4C4F;
   --color-dark-bg:#2B3548;
   --color-dark-bg-secndry:#42506B;
   --color-dark-border:#4B4B4B;
   --color-dark-text:#EAEAEC;
+  /* Texts */
+  --text-h1:2rem;
+  --text-h2:1.812rem;
+  --text-h3:1.625rem;
+  --text-h4:1.438rem;
+  --text-h5:1.250rem;
+  --text-h6:1.125rem;
+  --text-p:1rem;
+  --text-s:0.875rem;
+  --text-es:0.812rem;
 }
