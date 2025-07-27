@@ -1,6 +1,6 @@
 <template>
   <div>
     <h1>Index page</h1>
-   <UButton loading>Button</UButton>
+   <base-button>button</base-button>
   </div>
 </template>
